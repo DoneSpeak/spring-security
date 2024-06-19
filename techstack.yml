@@ -1,0 +1,168 @@
+repo_name: DoneSpeak/spring-security
+report_id: 9935e9422ac0693c5707a92e3db4f6d5
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-19T08:00:31+00:00'
+requested_by: jzheaux
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/DoneSpeak/spring-security
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security/blob/master/acl/src/main/resources/createAclSchema.sql
+  detection_source: acl/src/main/resources/createAclSchema.sql
+  last_updated_by: Luke Taylor
+  last_updated_on: 2010-01-08 16:06:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security/blob/master/acl/spring-security-acl.gradle
+  detection_source: acl/spring-security-acl.gradle
+  last_updated_by: Rob Winch
+  last_updated_on: 2017-03-28 20:45:30.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security/blob/master/acl/src/test/resources/logback-test.xml
+  detection_source: acl/src/test/resources/logback-test.xml
+  last_updated_by: Rob Winch
+  last_updated_on: 2017-08-17 20:57:46.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Rob Winch
+  last_updated_on: 2016-03-14 19:04:32.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/DoneSpeak/spring-security/blob/master/samples/boot/hellorsocket/src/main/resources/application.properties
+  detection_source: samples/boot/hellorsocket/src/main/resources/application.properties
+  last_updated_by: Rob Winch
+  last_updated_on: 2019-09-30 18:57:52.000000000 Z
+- name: AspectJ
+  description: Official Eclipse Foundation Twitter ID
+  website_url: https://eclipse.org/aspectj/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2973/2ugK6PfJ_normal.jpg
+  detection_source_url: https://github.com/DoneSpeak/spring-security
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/DoneSpeak/spring-security
+  detection_source: Repo Metadata
+- name: net.sourceforge.saxon:saxon
+  description: Saxon a complete and conformant implementation of the XSLT 2.0
+  version: 9.1.0
+  license: MPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/DoneSpeak/spring-security/blob/master/buildSrc/build.gradle
+  detection_source: buildSrc/build.gradle
+  last_updated_by: Lars Grefer
+  last_updated_on: 2019-08-22 23:54:01.000000000 Z
